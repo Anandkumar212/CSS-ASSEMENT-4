@@ -1,0 +1,133 @@
+.head{
+    height: 24px;
+    text-align: center;
+    background:linear-gradient(to right , red, green ,yellowgreen);
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.main{
+    border: 4px solid violet;
+    background-color: cadetblue;
+    position:relative;
+   margin-left: 25%;
+   width: 50%;
+   border-radius: 8%;
+}
+.list{
+    /* position: absolute;
+    right: 0px; */
+
+    /* text-align: center; */
+    margin-left: 35%;
+}
+.flex{
+    border: 6px solid green;
+    border-radius: 10%;
+    display:flex;
+    background-color: cadetblue;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    border-radius: 5%;
+    border: 2px solid green;
+    font-weight: bolder;
+    width: 25%;
+    background-color: cyan;
+
+}
+.head1{
+    font-weight: bolder;
+    height: 28px;
+    text-decoration: underline;
+    background:linear-gradient( to right , red,  yellow,  red);
+    text-align: center;
+}
+.flex2{
+    border: 4px solid green;
+    border-radius: 2%;
+    background: radial-gradient(blue,green);
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+
+    
+
+}
+.b{
+    border: 2px solid red;
+    border-radius: 5%;
+    background-color: yellow;
+    width: 20%;
+    text-decoration: underline;
+    text-align: center;
+    height: 100px;
+    margin-top: 5%;
+    
+}
+.head2{
+    background-color: tomato;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+    height: 22px;
+
+}
+.box1{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.block4{
+    display: flex;
+    background-color: green;
+    color:white;
+    width:20%;
+    font-size: 27px;
+    text-align: center;
+    height: 22%;
+}
+.block5{
+    background-color:blue;
+    color:white;
+    width:26%;
+    font-size: 26px;
+    height: 25%;
+}
+.block6{
+    background-color: blueviolet;
+    color:white;
+    width:20%;
+    font-size: 20px;
+    height: 20%;
+}
+.block7{
+    text-decoration: underline;
+    background-color: black;
+    color:white;
+    width: 10%;
+    height: 10%;
+}
+.content{
+    background-color: orange;
+    color: white;
+    /* width: 60%; */
+    margin-right: 14%;
+    margin-top: -8%;
+}
+.last{
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(19, 102, 134);
+}
+.parent{
+    border:2px solid grey;
+    
+}
