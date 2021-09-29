@@ -12,18 +12,14 @@
     position:relative;
    margin-left: 25%;
    width: 50%;
-   border-radius: 8%;
+   border-radius: 12px;
 }
 .list{
-    /* position: absolute;
-    right: 0px; */
-
-    /* text-align: center; */
     margin-left: 35%;
 }
 .flex{
     border: 6px solid green;
-    border-radius: 10%;
+    border-radius: 12px;
     display:flex;
     background-color: cadetblue;
     justify-content: space-around;
@@ -85,49 +81,61 @@
     padding: 10px;
 
 }
-.block4{
-    display: flex;
-    background-color: green;
-    color:white;
-    width:20%;
-    font-size: 27px;
-    text-align: center;
-    height: 22%;
-}
-.block5{
-    background-color:blue;
-    color:white;
-    width:26%;
-    font-size: 26px;
-    height: 25%;
-}
-.block6{
-    background-color: blueviolet;
-    color:white;
-    width:20%;
-    font-size: 20px;
-    height: 20%;
-}
-.block7{
-    text-decoration: underline;
-    background-color: black;
-    color:white;
-    width: 10%;
-    height: 10%;
-}
-.content{
-    background-color: orange;
-    color: white;
-    /* width: 60%; */
-    margin-right: 14%;
-    margin-top: -8%;
-}
-.last{
-    text-decoration: underline;
-    text-align: center;
-    background-color: rgb(19, 102, 134);
-}
 .parent{
-    border:2px solid grey;
-    
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.child{
+    margin: 15px;
+    padding: 10px;
+}
+.child1{
+    background-color:rgb(240, 61, 61);
+    grid-column: 1/5;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.child2{
+    background-color:rgb(102, 189, 102);
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+.child3{
+    background-color:rgb(82, 82, 187);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.child4{
+    background-color: violet;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.child5{
+    background-color:black;
+    text-decoration: underline;
+    grid-column: 4;
+    grid-row:2/4 ;
+    text-align: center;
+    color: whitesmoke;
+   
+}
+.child6{
+    background-color:orange;
+    grid-column: 1/4;
+}
+.child7{
+    background-color:cadetblue;
+    grid-column: 1/5;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.child8{
+    background-color: red;
+    display:none
 }
